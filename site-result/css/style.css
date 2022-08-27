@@ -62,7 +62,7 @@ nav{
   color:#000;  /* 글자 색 */
   font-weight:600;  /* 글자 굵기 */
   /* text-shadow:0 1px #07c;  그림자 추가 */
-  padding:20px 60px;  /* 패딩 */ 
+  padding:20px 40px;  /* 패딩 */ 
 }
 #topMenu > li > a > span {
   font-size : 0.5em;   /* 서브 메뉴가 있는 항목에 화살표 표시 */   
