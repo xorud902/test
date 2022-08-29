@@ -1,1 +1,54 @@
-test
+.sect2 .busi-cont .item {padding:30px 0px;overflow:hidden;}
+.sect2 .busi-cont .item {width:24%;float:left;}
+.sect2 .busi-cont .item a {display:block;}
+.sect2 .busi-cont .item span {display:block;}
+.sect2 .busi-cont .item .pimg {width:100%;position:relative;overflow:hidden;background:#e6e6e7;margin:0 0 1px;}
+.sect2 .busi-cont .item .pimg:before {display:inline-block;vertical-align:middle;content:"";width:0;padding-top:66.667%;}
+.sect2 .busi-cont .item .pimg img {max-width:100%;width:100%;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);margin:auto;transition:all .5s ease;}
+.sect2 .busi-cont .item .pimg .ltit {position:absolute;font-size:27px;font-weight:400;color:#fff;margin:0 0 0px;white-space:nowrap;overflow:hidden;left:20px;top:10px;line-height:33px}
+.sect2 .busi-cont .item a:hover .pimg img, .sect2 .busi-cont .item a:focus .pimg img {transform:translate(-50%, -50%) scale(1.1);-ms-transform:translate(-50%, -50%) scale(1.1);}
+.sect2 .busi-cont .item a:hover .ltit, .sect2 .busi-cont .item a:focus .ltit {text-decoration:underline;}
+.sect2 .busi-cont .item .pimg button {border-width:1px;border-radius:4px;border-color:#fff;background:0;width:10%;height:15%;position:absolute;margin-right:0px;transition:all .3s ease;left:85%;top:80%;}
+.sect2 .busi-cont .item .pimg button:before, .sect2 .busi-cont .item button:after {display:block;content:"";position:absolute;top:0;bottom:0;margin:auto;}
+.sect2 .busi-cont .item .pimg button:before {width:40%;height:40%;box-sizing:border-box;border:1px solid transparent;transform:rotate(-45deg);-ms-transform:rotate(-45deg);}
+.sect2 .busi-cont .item .pimg button:after {width:75%;height:1px;background:#fff;left:10%;top:25%;}
+.sect2 .busi-cont .item .pimg .btn-next:before {border-bottom-color:0;border-right-color:#fff;border-top:0;border-left:0;right:17%;top:25%;}
+.sect2 .busi-cont .item .pimg .btn-next:after {right:1px;}
+.sect2 .busi-cont .item a:hover .pimg button, .sect2 .busi-cont .item a:focus .pimg button {transform:translate(0, -30%) scale(1.1);-ms-transform:translate(0, -30%) scale(1.1);}
+.sect2 .busi-cont .busi ul {display:none;}
+.sect2 .busi-cont .busi li {display:none;}
+/* 20220616 김태경 수정*/%);-ms-transform:translate(-50%, -50%);margin:auto;transition:all .5s ease;}
+
+
+
+        <div class="busi-cont">
+                  <div Class = "item">
+                              <a href="/${tmplSiteCode!}/CMS/Contents/Contents.do?mCode=MN032">
+                                            <span Class="pimg">
+                                                            <img alt src="/resources/homepage/kor/_Img/Content/sect2_v2_bg01.jpg">
+                                                                            <button type="button" class="btn btn-next"><span class="blind">다음</span></button>
+                                                                                            <dev class="ltit">선박 부품/서비스</dev>
+                       </span>
+                                   </a>
+                                             </div>
+                                                       <div Class = "item">
+                                                                   <a href="/${tmplSiteCode!}/CMS/Contents/Contents.do?mCode=MN026">
+                                                                                 <span Class="pimg">
+                                                                                                 <img alt src="/resources/homepage/kor/_Img/Content/sect2_v2_bg02.jpg">
+                                                                                                                 <button type="button" class="btn btn-next"><span class="blind">다음</span></button>
+                                                                                                                                 <dev class="ltit">육상발전플랜트</dev>
+                                                                                                                                               </span>
+                                                                                                                                                           </a>
+                                                                                                                                                                     </div>
+                                                                                                                                                                               <div Class = "item">
+                                                                                                                                                                                           <a href="/${tmplSiteCode!}/CMS/Contents/Contents.do?mCode=MN093">
+                                                                                                                                                                                                         <span Class="pimg">
+                                                                                                                                                                                                                         <img alt src="/resources/homepage/kor/_Img/Content/sect2_v2_bg03.jpg">
+                                                                                                                                                                                                                                         <button type="button" class="btn btn-next"><span class="blind">다음</span></button>
+                                                                                                                                                                                                                                                         <dev class="ltit">선박 친환경 개조</dev>
+                                                                                                                                                                                                                                                                                                                                                          </span>
+                                                                                                                                                                                                                                                                                                                                                                      </a>
+                                                                                                                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                                                                                                                          <div Class = "item">
+                                                                                                                                                                                                                                                                                                                                                                                                      ref="/${tmplSiteCode!}/CMS/Contents/Contents.do?mCode=MN055">
+                                                                                                                                                                                                                                                                                                                                                                                                                    <spa
