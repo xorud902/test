@@ -46,9 +46,45 @@
                                                                                                                                                                                                                          <img alt src="/resources/homepage/kor/_Img/Content/sect2_v2_bg03.jpg">
                                                                                                                                                                                                                                          <button type="button" class="btn btn-next"><span class="blind">다음</span></button>
                                                                                                                                                                                                                                                          <dev class="ltit">선박 친환경 개조</dev>
-                                                                                                                                                                                                                                                                                                                                                          </span>
-                                                                                                                                                                                                                                                                                                                                                                      </a>
-                                                                                                                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                          <div Class = "item">
-                                                                                                                                                                                                                                                                                                                                                                                                      ref="/${tmplSiteCode!}/CMS/Contents/Contents.do?mCode=MN055">
+                                                                                                                                                                                                                                                                                                                                                          </span><div Class = "item">ref="/${tmplSiteCode!}/CMS/Contents/Contents.do?mCode=MN055">
+<#ftl encoding="UTF-8"/>
+<div class="job-top">
+<h3 class="job-top-tit">직무소개</h3>
+</div>
+<div class="job-cont-list">
+<div class="job-cont">
+<div class="inwr inwr-l">
+<h3 class="job-tit kf">영업기획</h3>
+<p>영업기획은 고객 접점의 영업 직원들이 성과를 창출할 수 있도록 글로벌 선박<span>·</span>플랜트 시장 분석 및 세일즈 전략을 수립하는 업무입니다<span>. </span>영업 조직 운영 제반의 혁신<span>/</span>개선 과제를 도출하여 업무 효율성을 지속적으로 향상시키고 데이터 기반의 세일즈 정책 및 관리 방안을 수립합니다<span>. </span>또한<span>, </span>시장 조사 및 마케팅 지원 활동을 통한 대 고객 커뮤니케이션 활성화 업무를 수행하며 기업 브랜드 이미지 강화를 위해 노력하고 있습니다<span>.</span></p>
+</div>
+</div>
+<div class="job-cont">
+<div class="inwr inwr-l">
+<h3 class="job-tit kf">해외영업</h3>
+<p>해외영업은 해외법인과 함께 핵심 고객사<span>(KAM : Key Account Manager)</span>에 대한 전담 인력 배치를 통해<span>, </span>주요<span> MISSION </span>사안인 고객사와의 유기적인 협력 관계 구축 및 대 고객 신뢰도 증진업무를 수행합니다<span>. </span></p>
+<p>또한<span> CRM* </span>시스템을 통한 체계적인 고객 관리를 실천하고<span>, MI-DB*</span>기반의 영업 기회를 발굴하여 각 해외법인의 영업 전략을 수립하며<span>, </span>단기적인 영업 전략이 아닌 고객<span> VOC </span>해결을 통한 신뢰를 바탕으로 한 장기적인 파트너로의 관계를 지향함으로써 회사의 궁극적인 목표인 수주<span>/</span>매출 증대 달성을 위해 나아갑니다<span>.</span></p>
+<p><span><b>*CRM -</b> Customer Relationship Management, <b>*MI-DB -</b> Market Intelligence Data Base</span></p>
+</div>
+</div>
+<div class="job-cont">
+<div class="inwr inwr-l">
+<h3 class="job-tit kf">엔지니어링영업</h3>
+<p>엔지니어링영업은 엔지니어링이 요구되는 선박의 개조 공사 영업 및 컨설팅을 담당하는 업무입니다<span>. </span>특히<span>, SOx Scrubber, Dual Fuel Engine, BWTS(Ballast Water Treatment System), AMP(Alternative Maritime Power), EPL(Engine Power Limitation) </span>등 선박 별 최적화된 솔루션을 제안함으로써<span>, </span>선박의 가치를 향상시키고 국제적으로 강화되는 환경규제에 대응할 수 있도록<span> Total Solution Provider</span>로써 종합 컨설팅을 제공하고 있습니다<span>.</span></p>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                          
+             /* 직무소개 */
+             .job-cont {font-size:0;margin:0 0 100px;}
+             .job-cont:before {display:inline-block;vertical-align:top;content:"";width:0;}
+             .job-cont .job-tit {font-size:30px;font-weight:500;color:#333;padding:12px 0 12px 35px;position:relative;margin:0 0 32px;line-height:1.2;}
+             .job-cont .job-tit:before {display:block;content:"";width:3px;height:100%;background:#0053a5;position:absolute;top:0;left:0;}
+             .job-cont .txt {margin:0 0 15px;}
+             .job-cont .inwr {position:relative;display:inline-block;vertical-align:top;width:100%;font-size:1rem;box-sizing:border-box;}
+             
                                                                                                                                                                                                                                                                                                                                                                                                                     <spa
